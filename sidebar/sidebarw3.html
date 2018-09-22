@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="sidebarw3.css">
+
+<!-- Bootstrap CSS CDN -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+
+<!-- ÍCONOS FONT_AWESOME -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="mySidebar" style="display: none">
+        <div class="sidebar-header">
+            Menu
+        </div>
+
+        <div class="sidebar-item">
+            <i class="far fa-user-circle"></i> Usuario
+        </div>
+
+        <div class="sidebar-item">
+            <i class="fas fa-plus-circle"></i> Esquemás de vacunación sugeridos
+        </div>
+
+        <div class="sidebar-item">
+            <i class="far fa-address-card"></i> Mi Carné de vacunación
+        </div>
+
+        <div class="sidebar-item">
+            <i class="far fa-hospital"></i> Centros de vacunación
+        </div>
+
+        <div class="sidebar-item">
+             <i class="fas fa-users"></i> Compartir mi carné de vacunación
+        </div>
+
+        <div class="sidebar-item">
+            <i class="far fa-times-circle"></i> Cerrar sesión
+        </div>
+
+    </div>
+
+    <!-- Contenido -->
+    <div id="contenido">
+
+        <div>
+            <button onclick="abrir_cerrar()"> ☰ </button>
+            <h1>Título</h1>
+        </div>
+
+        <div>
+            <h2>Imagen</h2>
+            <img src="imagen.png" alt="got" style="width:400px" height="300px">
+        </div>
+
+
+        <div>
+            <h2>Esto es un título de esquema</h2>
+            <p>El side bar tiene "style="width:25%", y el contenido tiene como propiedad "margin-left: 25%" </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel faucibus sapien, quis euismod
+                enim.
+                Vestibulum id libero vitae enim fermentum eleifend. Fusce purus lectus, viverra efficitur ultricies
+                id,
+                vestibulum vitae nisl. In interdum cursus accumsan. Cras interdum lobortis sem quis dapibus.
+                Pellentesque tristique mi eget sapien eleifend, vitae eleifend sapien tristique. Duis commodo a
+                enim at
+                ultrices. Integer molestie lorem velit, sodales sollicitudin orci placerat nec. Etiam convallis
+                lorem
+                nec nulla sodales sollicitudin. Donec laoreet ipsum arcu, eget faucibus purus mollis sed. Donec
+                fermentum non lacus cursus semper. Suspendisse feugiat, ipsum lobortis feugiat vestibulum, ante dui
+                ultricies eros, eget euismod ipsum lacus eu est. Aliquam scelerisque porttitor ligula, tempor
+                facilisis
+                massa aliquam ut. Donec consectetur sapien augue, imperdiet vulputate justo semper et. Donec id
+                vestibulum tortor. Praesent porta erat sit amet est placerat, quis pulvinar felis pretium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel faucibus sapien, quis euismod
+                enim.
+                Vestibulum id libero vitae enim fermentum eleifend. Fusce purus lectus, viverra efficitur ultricies
+                id,
+                vestibulum vitae nisl. In interdum cursus accumsan. Cras interdum lobortis sem quis dapibus.
+                Pellentesque tristique mi eget sapien eleifend, vitae eleifend sapien tristique. Duis commodo a
+                enim at
+                ultrices. Integer molestie lorem velit, sodales sollicitudin orci placerat nec. Etiam convallis
+                lorem
+                nec nulla sodales sollicitudin. Donec laoreet ipsum arcu, eget faucibus purus mollis sed. Donec
+                fermentum non lacus cursus semper. Suspendisse feugiat, ipsum lobortis feugiat vestibulum, ante dui
+                ultricies eros, eget euismod ipsum lacus eu est. Aliquam scelerisque porttitor ligula, tempor
+                facilisis
+                massa aliquam ut. Donec consectetur sapien augue, imperdiet vulputate justo semper et. Donec id
+                vestibulum tortor. Praesent porta erat sit amet est placerat, quis pulvinar felis pretium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel faucibus sapien, quis euismod
+                enim.
+                Vestibulum id libero vitae enim fermentum eleifend. Fusce purus lectus, viverra efficitur ultricies
+                id,
+                vestibulum vitae nisl. In interdum cursus accumsan. Cras interdum lobortis sem quis dapibus.
+                Pellentesque tristique mi eget sapien eleifend, vitae eleifend sapien tristique. Duis commodo a
+                enim at
+                ultrices. Integer molestie lorem velit, sodales sollicitudin orci placerat nec. Etiam convallis
+                lorem
+                nec nulla sodales sollicitudin. Donec laoreet ipsum arcu, eget faucibus purus mollis sed. Donec
+                fermentum non lacus cursus semper. Suspendisse feugiat, ipsum lobortis feugiat vestibulum, ante dui
+                ultricies eros, eget euismod ipsum lacus eu est. Aliquam scelerisque porttitor ligula, tempor
+                facilisis
+                massa aliquam ut. Donec consectetur sapien augue, imperdiet vulputate justo semper et. Donec id
+                vestibulum tortor. Praesent porta erat sit amet est placerat, quis pulvinar felis pretium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel faucibus sapien, quis euismod
+                enim.
+                Vestibulum id libero vitae enim fermentum eleifend. Fusce purus lectus, viverra efficitur ultricies
+                id,
+                vestibulum vitae nisl. In interdum cursus accumsan. Cras interdum lobortis sem quis dapibus.
+                Pellentesque tristique mi eget sapien eleifend, vitae eleifend sapien tristique. Duis commodo a
+                enim at
+                ultrices. Integer molestie lorem velit, sodales sollicitudin orci placerat nec. Etiam convallis
+                lorem
+                nec nulla sodales sollicitudin. Donec laoreet ipsum arcu, eget faucibus purus mollis sed. Donec
+                fermentum non lacus cursus semper. Suspendisse feugiat, ipsum lobortis feugiat vestibulum, ante dui
+                ultricies eros, eget euismod ipsum lacus eu est. Aliquam scelerisque porttitor ligula, tempor
+                facilisis
+                massa aliquam ut. Donec consectetur sapien augue, imperdiet vulputate justo semper et. Donec id
+                vestibulum tortor. Praesent porta erat sit amet est placerat, quis pulvinar felis pretium.
+            </p>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="sidebarw3.js"></script>
+
+</body>
+
+</html>
