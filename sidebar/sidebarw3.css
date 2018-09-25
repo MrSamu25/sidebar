@@ -53,21 +53,10 @@
     }
     .sidebar-item{
         font-size: 10px;
-    }
-    #contenido {
-        font-size: 10px;
-    }
-}
-@media (max-width: 600px) {
-    .sidebar-header{
-        font-size: 20px;
-    }
-    .sidebar-item{
-        font-size: 8px;
         background-color: gray;
     }
     #contenido {
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 

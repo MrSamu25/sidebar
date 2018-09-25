@@ -1,7 +1,7 @@
 function abrir_cerrar() {
 
     //La ventana es de tamaño 600px o menos
-    var x = window.matchMedia("(max-width: 600px)")
+    var x = window.matchMedia("(max-width: 760px)")
 
     /* Abrir side-bar toda la pantalla*/
     if (document.getElementById("mySidebar").style.display == "none" && x.matches) {
@@ -28,15 +28,3 @@ function abrir_cerrar() {
     }
 
 }
-/* 
-    if(document.getElementById("contenido").style.fontSize == " 8px" && document.getElementById("mySidebar").style.display == "none"){
-        document.getElementById("mySidebar").style.width = "100%";
-        document.getElementById("mySidebar").style.display = "block"
-    }
-
-
-    bien abajo
-    document.getElementById("contenido").style.marginLeft = "2%";
-    document.getElementById("mySidebar").style.display = "none";
-
-*/
