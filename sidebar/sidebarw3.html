@@ -16,8 +16,13 @@
 
     <!-- Sidebar -->
     <div class="sidebar" id="mySidebar" style="display: none">
-        <div class="sidebar-header">
-            Menu
+
+        <div style="text-align: right">
+            <button onclick="abrir_cerrar()"> <i class="fas fa-angle-double-left"></i>  </button>
+        </div>
+
+        <div class="sidebar-header" id="sidebar-header">
+            Menú
         </div>
 
         <div class="sidebar-item">
@@ -50,7 +55,7 @@
     <div id="contenido">
 
         <div>
-            <button onclick="abrir_cerrar()"> ☰ </button>
+            <button onclick="abrir_cerrar()"> <i class="fas fa-bars"></i> Menu </button>
             <h1>Título</h1>
         </div>
 
