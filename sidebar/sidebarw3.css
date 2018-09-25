@@ -11,6 +11,7 @@
     height:100%;
     width:20%;
 
+    transition: all 0.3s !important;
     font-size: 14px;
 }
 .sidebar-item{
@@ -33,6 +34,9 @@
     color: #2c3e50;
     background-color: #F5F5F5;
 }
+.btn {
+
+}
 
 /*CUANDO LA PANTALLA SE HACE MÁS PEQUEÑA, LA LETRA DE SISTEMA SE HACE MÁS PEQUEÑA*/
 @media (max-width: 1000px) {
@@ -54,6 +58,9 @@
     .sidebar-item{
         font-size: 10px;
         background-color: gray;
+    }
+    .sidebar{
+        display: none;
     }
     #contenido {
         font-size: 10px;
