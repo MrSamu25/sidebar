@@ -1,6 +1,6 @@
 function abrir_cerrar() {
 
-    //La ventana es de tamaño 600px o menos
+    //La ventana es de tamaño 760px o menos
     var x = window.matchMedia("(max-width: 760px)")
 
     /* Abrir side-bar toda la pantalla*/
